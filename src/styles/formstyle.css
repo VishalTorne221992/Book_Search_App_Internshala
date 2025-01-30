@@ -1,0 +1,68 @@
+
+.contactf > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContact{
+   background-color: cornsilk;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   width: max-content;
+   margin: auto ;
+   gap: 1rem;
+   border-radius: 1rem;
+   padding: 1rem;
+}
+
+.formelem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: azure;
+    padding: 1.3rem;
+    gap: 1rem;
+}
+
+.formelem > input{
+    border-radius: .4rem;
+    height: 1.5rem;
+}
+
+.btnSubmit{
+    width: 7rem;
+    height: 2rem;
+}
+
+.formelemtxt{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.labelfm{
+    font-weight:bold;
+}
+
+.inputstyle{
+    border: 2px solid black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+    gap: 1rem;
+}

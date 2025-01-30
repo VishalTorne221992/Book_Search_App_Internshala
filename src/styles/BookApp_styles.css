@@ -1,0 +1,138 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.BookListStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    border: 1px solid black;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 80ms ease-in;
+}
+
+.Card h2{
+    font-size: 1.3rem;
+}
+
+.Card img{
+    width: 100%;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+}
+
+.Card img{
+    margin: auto;
+    object-fit: cover;
+}
+
+.Card > *{
+    margin: 1.5rem;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.search button{
+    width: 8em;
+    height: 2.4em;
+}
+
+.inputSearch{
+    width: 400px;
+    height: 2.4em;
+    margin-right: .5rem;
+    margin-top: 1.5rem;
+}
+
+/* Modal style */
+
+.modal {
+    font-size: 12px;
+    background-color: white;
+    width: 700px;
+    height: max-content;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  form{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+  }
+
+  form button{
+    place-self: center;
+  }
+
+  .headerNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkblue;
+    padding: 20px;
+    font-size: 1.5rem;
+    gap: 5rem;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(35, 2, 56);
+    
+  }
+
+  .headerNav li {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
