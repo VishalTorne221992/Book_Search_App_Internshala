@@ -9,10 +9,10 @@ function App() {
 
   return (
     <>
-    <Provider store={appstore}>
-      <Header />
-      <Outlet />
-    </Provider>
+      <Provider store={appstore}>
+        <Header />
+        <Outlet />
+      </Provider>
     </>
   )
 }

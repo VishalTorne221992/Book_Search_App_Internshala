@@ -13,6 +13,7 @@ const appRouter = createBrowserRouter([
   {
     path:"/",
     element: <App />,
+    errorElement: <Error/>,
     children: [
       {
         path:"/",
@@ -32,10 +33,10 @@ const appRouter = createBrowserRouter([
       },
       {
         path:"/category/:name",
-        element: <CatBooks />
+        element: <CatBooks />,
+        errorElement: <Error />
       }
-    ],
-    errorElement: <Error/>
+    ]
   }
 ])
 
